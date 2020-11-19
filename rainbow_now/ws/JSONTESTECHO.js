@@ -1,0 +1,26 @@
+var money = {"cmd":"qryTradingAccount",
+    "code":0,"data":[{"AccountMarketValue":0.0,"Adjust":0.0,"CashIn":0.0,"CashOut":0.0,"ClientNo":"000600010021","CoverProfit":0.0,"CurrencyNo":"CNY","DayCoverProfit":0.0,"DayFloatProfit":0.0,"DeliveryFee":0.0,"Deposit":0.0,"Discount":0.0,"ExchangeFee":0.0,"Fee":0.0,"FloatProfit":0.0,"Frozen":0.0,"FrozenDeposit":0.0,"FrozenFee":0.0,"KeepDeposit":0.0,"LmeFloatProfit":0.0,"NewFloatProfit":0.0,"OptionMarketValue":0.0,"OriCash":0.0,"Pledge":0.0,"Premium":0.0,"RiskRate":0.0,"TAvailable":0.0,"TBalance":0.0,"TCanCashOut":0.0,"TMoney":0.0,"TradeFee":0.0,"UnExpiredProfit":0.0,"YAvailable":0.0,"YBalance":0.0,"YCanCashOut":0.0,"YMoney":0.0,"YUnExpiredProfit":0.0},{"AccountMarketValue":0.0,"Adjust":0.0,"CashIn":0.0,"CashOut":0.0,
+        "ClientNo":"000600010021","CoverProfit":0.0,"CurrencyNo":"EUR","DayCoverProfit":0.0,
+        "DayFloatProfit":0.0,"DeliveryFee":0.0,"Deposit":0.0,"Discount":0.0,"ExchangeFee":0.0,"Fee":0.0,
+        "FloatProfit":0.0,"Frozen":0.0,"FrozenDeposit":0.0,"FrozenFee":0.0,"KeepDeposit":0.0,"LmeFloatProfit":0.0,
+        "NewFloatProfit":0.0,"OptionMarketValue":0.0,"OriCash":0.0,"Pledge":0.0,"Premium":0.0,"RiskRate":0.0,
+        "TAvailable":0.0,"TBalance":0.0,"TCanCashOut":0.0,"TMoney":0.0,"TradeFee":0.0,"UnExpiredProfit":0.0,
+        "YAvailable":0.0,"YBalance":0.0,"YCanCashOut":0.0,"YMoney":0.0,"YUnExpiredProfit":0.0},
+        {"AccountMarketValue":3050.0,"Adjust":0.0,"CashIn":0.0,"CashOut":0.0,"ClientNo":"000600010021",
+            "CoverProfit":13250.0,"CurrencyNo":"HKD","DayCoverProfit":0.0,"DayFloatProfit":0.0,"DeliveryFee":0.0,
+            "Deposit":66000.0,"Discount":0.0,"ExchangeFee":0.0,"Fee":1000.0,"FloatProfit":-9200.0,"Frozen":0.0,
+            "FrozenDeposit":0.0,"FrozenFee":0.0,"KeepDeposit":66000.0,"LmeFloatProfit":0.0,
+            "NewFloatProfit":-9200.0,"OptionMarketValue":0.0,"OriCash":0.0,"Pledge":0.0,"Premium":0.0,
+            "RiskRate":21.639344262295083,"TAvailable":-62950.0,"TBalance":3050.0,"TCanCashOut":-62950.0,
+            "TMoney":12250.0,"TradeFee":1000.0,"UnExpiredProfit":0.0,"YAvailable":1400.0,"YBalance":17900.0,
+            "YCanCashOut":1400.0,"YMoney":0.0,"YUnExpiredProfit":0.0},{"AccountMarketValue":78148.000000000015,
+            "Adjust":0.0,"CashIn":0.0,"CashOut":0.0,"ClientNo":"000600010021","CoverProfit":0.0,"CurrencyNo":"USD",
+            "DayCoverProfit":0.0,"DayFloatProfit":0.0,"DeliveryFee":0.0,"Deposit":12000.0,"Discount":0.0,"ExchangeFee":0.0,
+            "Fee":0.0,"FloatProfit":-569.99999999998204,"Frozen":0.0,"FrozenDeposit":0.0,"FrozenFee":0.0,"KeepDeposit":12000.0,
+            "LmeFloatProfit":0.0,"NewFloatProfit":-569.99999999998204,"OptionMarketValue":0.0,"OriCash":0.0,"Pledge":0.0,"Premium":0.0,
+            "RiskRate":0.15355479346880277,"TAvailable":66148.000000000015,"TBalance":78148.000000000015,"TCanCashOut":66148.000000000015,
+            "TMoney":78718.0,"TradeFee":0.0,"UnExpiredProfit":0.0,"YAvailable":67108.0,"YBalance":79108.0,"YCanCashOut":67108.0,
+            "YMoney":78718.0,"YUnExpiredProfit":0.0}]}
+
+
+console.log("json: " + JSON.stringify(money))

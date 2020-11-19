@@ -1,0 +1,5 @@
+CREATE TABLE `t_lp_info` (
+    `id`           INT UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    `lp`          VARCHAR(20) NOT NULL,
+    `url`         VARCHAR(50) NOT NULL,
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
